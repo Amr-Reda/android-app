@@ -35,9 +35,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/MyName"
             android:textColor="@color/colorSeconddary"
             android:textSize="70sp"
+            android:id="@+id/name"
             />
 
         <TextView
@@ -47,6 +47,18 @@
             android:textColor="@color/colorAccent"
             android:textSize="30sp"
             />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/img"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/enter_name"
+            android:hint="Enter your name"/>
     </LinearLayout>
 
 
