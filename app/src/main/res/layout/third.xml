@@ -22,7 +22,7 @@
         <TableRow>
             <Button android:text="ok" />
             <Button android:text="login"
-                    android:background="@color/colorGreen"
+                    android:background="@color/color_green"
                     android:textAllCaps="false"
                     android:textColor="@color/colorAccent"
                     android:textSize="25sp"/>

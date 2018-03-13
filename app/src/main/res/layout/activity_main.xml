@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     tools:context="com.example.amr.myapplication.MainActivity"
     android:orientation="vertical"
-    android:background="@color/colorThird">
+    android:background="@color/color_red">
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorSeconddary"
+            android:textColor="@color/color_secondary"
             android:textSize="70sp"
             android:id="@+id/name"
             />
@@ -48,17 +48,23 @@
             android:textSize="30sp"
             />
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/img"
-            />
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/img"-->
+            <!--/>-->
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:id="@+id/enter_name"
             android:hint="Enter your name"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:text="@string/click"/>
     </LinearLayout>
 
 
