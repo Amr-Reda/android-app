@@ -65,6 +65,7 @@
             android:layout_centerHorizontal="true"
             android:id="@+id/button1"
             android:background="@drawable/rectangle"
+            android:onClick="click"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -72,7 +73,6 @@
             android:layout_below="@id/button1"
             android:textColor="@color/colorAccent"
             android:text="don't have account ?"
-            android:background="@color/color_red"
             android:layout_centerHorizontal="true"
             android:id="@+id/text2"/>
         <TextView
@@ -81,6 +81,7 @@
             android:layout_below="@id/text2"
             android:layout_centerHorizontal="true"
             android:text="sign up"
+            android:id="@+id/sign_up"
             android:textColor="@color/color_blue"/>
     </RelativeLayout>
 
