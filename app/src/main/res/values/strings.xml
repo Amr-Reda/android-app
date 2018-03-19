@@ -2,4 +2,7 @@
     <string name="app_name">Main</string>
     <string name="MyName">Amr</string>
     <string name="click">Click Me</string>
+    <string name="enter_data">Enter Data</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
 </resources>

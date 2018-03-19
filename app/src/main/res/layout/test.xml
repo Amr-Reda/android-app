@@ -28,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="sign in"
+            android:id="@+id/text_signup"
             android:textColor="@color/colorAccent"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
@@ -74,7 +75,7 @@
             android:textColor="@color/colorAccent"
             android:text="don't have account ?"
             android:layout_centerHorizontal="true"
-            android:id="@+id/text2"/>
+            android:id="@+id/donot_have_account"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
